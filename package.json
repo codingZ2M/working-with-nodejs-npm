@@ -1,0 +1,16 @@
+{
+  "name": "working-with-nodejs-npm",
+  "version": "1.0.0",
+  "description": "Basics of Node JS & NPM",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon simple_api.js"
+  },
+  "author": "Raj",
+  "license": "MIT"
+}
