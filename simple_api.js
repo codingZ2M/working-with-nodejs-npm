@@ -25,7 +25,7 @@ const server = http.createServer( (request, response) => {
 
     else if (pathname === '/api') {    
               response.writeHead(200, {     // sending headers (piece of info of response)
-                      'Conteny_type': 'application/json'
+                      'Content_type': 'application/json'
               });     
          response.end(data) // Sending JSON (API) to Client
       }
